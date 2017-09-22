@@ -1,0 +1,252 @@
+<div class="row">
+  <div class="col-md-2" style="background-color: #222; padding-right: 0px; padding-left: 0px;">
+    <div class="navbar navbar-inverse" role="navigation" style="border: 0px; margin-bottom: 0px; display: block;">
+      <div class="navbar-inner">
+        <!-- Lateral Menu -->
+        <div>                              
+            <!-- MODULO 1 -->
+            <ul class="nav menu">
+              <li class="active dropdown text-center">
+                <a style="color: #fff;" ng class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="images/left_frame.png"><br>
+                Marco</a>
+                <ul class="dropdown-menu">
+                  <li class="text-center">
+                    <a href ng-click="selectMarco()">
+                    <img width="50%" src="images/ramme-svart.png"><br>
+                    Marco
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="selectDropout()">
+                    <img src="images/dropout-svart.png"><br>
+                    Dropout
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="active dropdown text-center">
+                <a style="color: #fff;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="images/left_fork.png"></i><br>
+                Horquilla</a>
+                <ul class="dropdown-menu">
+                  <li class="text-center">
+                    <a href ng-click="changeHorquilla('images/gaffel-svart.png')">
+                    <img width="25%" src="images/gaffel-svart.png"><br>
+                    Marco
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="changeHorquilla('images/gaffel-rett-svart.png')">
+                    <img width="25%" src="images/gaffel-rett-svart.png"><br>
+                    Dropout
+                    </a>
+                  </li>
+                </ul>
+              </li>
+               <li class="active dropdown text-center">
+                <a style="color: #fff;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="images/left_fwheel.png"></i><br>
+                Rueda Delantera</a>
+                <ul class="dropdown-menu">
+                  <li class="text-center">
+                    <a href ng-click="changeFRueda('images/deepv-svart-machinedF.png')">
+                    <img width="50%" src="images/deepv-svart-machinedF.png"><br>
+                    Deep V
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="changeFRueda('images/classic-kromF.png')">
+                    <img width="50%" src="images/classic-kromF.png"><br>
+                    Classic
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="changeFRueda('images/radial-kromF.png')">
+                    <img width="50%" src="images/radial-kromF.png"><br>
+                    Radial
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="selectTiresF()">
+                    <img width="50%" src="images/dekk-svartF.png"><br>
+                    Tires
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="changeFRueda('images/aerospoke-svartF.png')">
+                    <img width="50%" src="images/aerospoke-svartF.png"><br>
+                    Fives
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="active dropdown text-center">
+                <a style="color: #fff;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="images/left_fwheel.png"></i><br>
+                Rueda Trasera</a>
+                <ul class="dropdown-menu">
+                  <li class="text-center">
+                    <a href ng-click="changeRRueda('images/deepv-svart-machinedR.png')">
+                    <img width="50%" src="images/deepv-svart-machinedR.png"><br>
+                    Deep V
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="changeRRueda('images/classic-kromR.png')">
+                    <img width="50%" src="images/classic-kromR.png"><br>
+                    Classic
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="changeRRueda('images/radial-kromR.png')">
+                    <img width="50%" src="images/radial-kromR.png"><br>
+                    Radial
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="selectTiresR()">
+                    <img width="50%" src="images/dekk-svartR.png"><br>
+                    Tires
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="changeRRueda('images/aerospoke-svartR.png')">
+                    <img width="50%" src="images/aerospoke-svartR.png"><br>
+                    Fives
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="active dropdown text-center">
+                <a style="color: #fff;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="images/left_handle.png"></i><br>
+                Manillar</a>
+                 <ul class="dropdown-menu">
+                  <li class="text-center">
+                    <a href ng-click="changeManillar('images/riserbar-svart.png')">
+                    <img width="50%" src="images/riserbar-svart.png"><br>
+                    Riser
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="selectCabezas()">
+                    <img width="25%" src="images/headset-svart.png"><br>
+                    Headset
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="changeManillar('images/bullhorns-svart.png')">
+                    <img width="50%" src="images/bullhorns-svart.png"><br>
+                    Bullhorn
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="selectManillar()">
+                    <img width="50%" src="images/stem-svart.png"><br>
+                    Stem
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="changeManillar('images/dropbar-svart.png')">
+                    <img width="50%" src="images/dropbar-svart.png"><br>
+                    Drop
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="active dropdown text-center">
+                <a style="color: #fff;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="images/left_saddle.png"></i><br>
+                Asiento</a>
+                <ul class="dropdown-menu">
+                  <li class="text-center">
+                    <a href ng-click="changeSeat('images/sete-oldskool-svart.png')">
+                    <img width="50%" src="images/sete-oldskool-svart.png"><br>
+                    Classic
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="changeSeat('images/sete-keirin-svart.png')">
+                    <img width="50%" src="images/sete-keirin-svart.png"><br>
+                    Keirin
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="selectSeatpost()">
+                    <img width="50%" src="images/seatpost.png"><br>
+                    Seatpost
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="active dropdown text-center">
+                <a style="color: #fff;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="images/left_crankset.png"></i><br>
+                Tracción</a>
+                <ul class="dropdown-menu">
+                  <li class="text-center">
+                    <a href ng-click="selectPedal()">
+                    <img width="50%" src="images/krank-svart.png"><br>
+                    Pedales
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="selectPinon()">
+                    <img width="50%" src="images/klinge-svart.png"><br>
+                    Piñon
+                    </a>
+                  </li>
+                  <li class="text-center">
+                    <a href ng-click="selectCadena()">
+                    <img width="50%" src="images/kjede-svart.png"><br>
+                    Cadena
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="active text-center">
+                <a style="color: #fff;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="images/left_share.png"></i><br>
+                Compartir</a>
+                <ul class="dropdown-menu">
+                  <li class="text-center">
+                    <a href ng-click="saveImg()">
+                    <i class="glyphicon glyphicon-save" style="font-size: 2em"></i>
+                    Descargar
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="active text-center">
+                <a style="color: #fff;" href>
+                Tendré suerte</a>
+              </li>
+            </ul>               
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="col-md-10" style="background-color: #fff;">
+   <div id="canvas-container">
+     <canvas id="c" class="canvas lower-canvas" width="850" height="550" style="position: absolute; width: 850px; height: 550px; left: 0px; top: 0px; user-select: none;"></canvas>
+     <canvas class="upper-canvas canvas" width="850" height="550" style="position: absolute; width: 850px; height: 550px; left: 0px; top: 0px; user-select: none; cursor: default;"></canvas>
+   </div>
+  </div>
+  <div class="col-md-10" style="background-color: #fff;">
+    <h3>Colores</h3>
+      <a href style="text-decoration: none;" ng-click="colorblack()">
+        <div style="display: inline-block; width: 25px; height: 25px; background-color: #222; margin: 6px;"></div>
+      </a>
+      <a href style="text-decoration: none;" ng-click="colorred()">
+        <div style="display: inline-block; width: 25px; height: 25px; background-color: #9a1616; margin: 6px;"></div>
+      </a>
+      <a href style="text-decoration: none;" ng-click="colorblue()">
+        <div style="display: inline-block; width: 25px; height: 25px; background-color: #16549a; margin: 6px;"></div>
+      </a>
+      <a href style="text-decoration: none;" ng-click="colorgreen()">
+        <div style="display: inline-block; width: 25px; height: 25px; background-color: #018b59; margin: 6px;"></div>
+      </a>
+    <hr />
+  </div>
+</div>
